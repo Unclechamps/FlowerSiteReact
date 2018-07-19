@@ -1,0 +1,95 @@
+
+
+.picture {
+  width: 35%;
+}
+
+
+
+/* Menu */
+
+.menu {
+  background-color: gray;
+  color: white;
+  display: flex;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu div {
+  padding: 10px;
+}
+
+.active {
+  background-color :black;
+}
+
+
+/* Flowers */
+
+.flowers {
+  text-align: center;
+}
+
+.flowers h1 {
+  font-size: 2.5em;
+}
+
+.flowerList {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: center;
+  margin: 35px auto;
+}
+
+.flowerDesc {
+  text-align: justify;
+}
+
+/* Add Flowers */
+
+.addFlowerForm {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.addFlowerForm div {
+  margin: 15px;
+}
+
+.addFlowerForm button {
+  width: 85px;
+}
+
+/* Contact Form */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.contact div {
+  margin: 15px;
+}
+
+.contact textarea {
+  width: 350px;
+  height: 200px;
+}
+
+.contact button {
+  width: 85px;
+}
