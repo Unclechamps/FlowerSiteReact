@@ -12,16 +12,31 @@
   background-color: gray;
   color: white;
   display: flex;
+  align-items: center;
 }
 
 .menu a {
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 15px;
+
 }
 
 .menu div {
+  padding: 15px;
+}
+
+.links {
+  display: flex;
+  margin-left: auto;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.logo {
+  margin: 0;
   padding: 10px;
+  font-size: 1.5em;
 }
 
 .active {
@@ -56,7 +71,7 @@
 .addFlowerForm {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -64,6 +79,13 @@
 
 .addFlowerForm div {
   margin: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.addFlowerForm input {
+  width: 200px;
 }
 
 .addFlowerForm button {

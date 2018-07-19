@@ -12,9 +12,12 @@ export class Menu extends Component {
   render() {
     return (
       <div className="menu">
-        <div><NavLink exact to = "/">Home</NavLink></div>
-        <div><NavLink to = "/addflowers">Add Flowers</NavLink></div>
-        <div><NavLink to = "/contact-us">Contact Us</NavLink></div>
+        <p className="logo">Flower Depot</p>
+        <div className="links">
+          <div><NavLink exact to = "/">Home</NavLink></div>
+          <div><NavLink to = "/addflowers">Add Flowers</NavLink></div>
+          <div><NavLink to = "/contact-us">Contact Us</NavLink></div>
+        </div>
       </div>
     )
   }

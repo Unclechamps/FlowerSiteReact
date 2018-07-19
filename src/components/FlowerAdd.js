@@ -56,15 +56,15 @@ export class FlowerAdd extends Component {
 
       <div>
         <label>Name: </label>
-        <input type="text" id="name" value={this.state.name} onChange={this.onChange} name="name"/>
+        <input type="text" id="name" value={this.state.name} onChange={this.onChange} name="name" placeholder="flower name"/>
       </div>
       <div>
         <label>Description: </label>
-        <input type="text" id="description" value={this.state.description} onChange={this.onChange} name="description" />
+        <input type="text" id="description" value={this.state.description} onChange={this.onChange} name="description" placeholder="brief description" />
       </div>
       <div>
         <label>ImageURL: </label>
-        <input type="text" id="imageURL" value={this.state.imageURL} onChange={this.onChange} name="imageURL" />
+        <input type="text" id="imageURL" value={this.state.imageURL} onChange={this.onChange} name="imageURL" placeholder="link to the image" />
       </div>
         <button onClick={() => this.addFlowers()} >Add Flower</button>
       </div>
